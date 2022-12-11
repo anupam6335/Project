@@ -102,7 +102,28 @@
 .gpt3__navbar-menu_container-links-sign {
     display: none;
 }
-
+@media screen and (min-width: 2560px) {
+    .gpt3__navbar-sign  {
+        margin-left: 50rem;
+    }
+    .gpt3__navbar-links_logo img{
+        width: 154px;
+        height: 174px;
+    }
+    .gpt3__navbar-links_container p, .gpt3__navbar-sign p, .gpt3__navbar-menu_container p {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .gpt3__navbar-sign  {
+        margin-left: 25rem;
+    }
+}
+@media screen  and (min-width: 1920px){
+    .gpt3__navbar-sign  {
+        margin-left: 50rem;
+    }
+}
 @media screen and (max-width: 1050px) {
     .gpt3__navbar-links_container {
         display: none;
@@ -112,10 +133,22 @@
         display: flex;
     }
 }
-
+@media screen  and (width: 820px  ){
+    .gpt3__navbar-sign  {
+        margin-left: 15rem;
+    }
+}
 @media screen and (max-width: 700px) {
     .gpt3__navbar {
         padding: 2rem 4rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .gpt3__navbar {
+        padding: 2rem 4rem;
+    }
+    .gpt3__navbar-sign  {
+        margin-left: 19rem;
     }
 }
 
