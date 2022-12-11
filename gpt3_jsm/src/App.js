@@ -7,7 +7,6 @@ const App = () => {
     <div className='App'>
       <div className="gradient__bg">
         <Navbar/>
-        {/* 1:06:08 */}
         <Header/> 
       </div> 
       <Brand/>
